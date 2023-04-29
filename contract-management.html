@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dyche Consulting Services</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <!-- Custom Js -->
+    <script type="text/javascript">
+       (function(){
+          emailjs.init("WK-CKlC_FO6binifH");
+       })();
+    </script>
+    <!-- Custom Js End -->
+  </head>
+  <body>
+        <!-- header section -->
+      <header class="header-area">
+          <img class="header-background" src="img/webbackground.jpg" alt="Background Image">
+          <div class="header-overlay"></div>
+          <nav class="navbar navbar-expand-lg navbar-light">
+              <h1><a class="navbar-brand" href="index.html" style="text-decoration: none; color: inherit;">Dyche Consulting <br>Services</a></h1>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><img width="30" src="img/hamburger-menu-icon.png" alt=""></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                  <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link" href="contract-management.html">Contract Management</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="demand-planning.html">Demand Planning</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="financial-modeling.html">Financial Modeling</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="visual-data-modeling.html">Visual Data Modeling</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="customer-success-story.html">Customer Testimonial</a>
+                      </li>
+                  </ul>
+              </div>
+          </nav>
+
+      </header>
+
+    <!-- Contract Management Section -->
+    <section id="contract-management">
+      <h2>Maximize Your Business's Potential with Custom Contract Solutions</h2>
+      <p>Introducing my tailored consulting service for contract management and custom contract creation, designed to elevate your business. I combine expertise, innovation, and proven methodologies to streamline contract processes and deliver solutions that align with your strategic goals.</p>
+
+      <p>As an experienced contract consultant, I assess your current contract management processes, identify areas of improvement, and collaborate with you to develop an efficient contract management framework. My custom contract creation services cover various contract types, including partnership agreements, rental leases, and property management contracts. I take the time to understand your needs, objectives, and risk appetite, crafting bespoke contracts that comply with industry best practices and regulations.</p>
+        
+      <p>My consulting service goes beyond contract creation, offering ongoing support such as contract review, negotiation, and risk assessment. Partnering with me, you'll benefit from my expertise, innovative strategies, and dedication to your success.</p>
+        
+      <p> Choose me as your trusted partner in contract management and custom contract creation, and let's work together to unlock your organization's full potential, achieving your strategic goals one contract at a time.</p>
+      <a href="#" class="btn">Learn More</a>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="container">
+        <p>&copy; Dyche Consulting Services</p>
+        <p>123 Main Street, Suite 200, Anytown, USA 12345</p>
+        <p>Name: Philip Dyche</p>
+        <p>Email: Phildyche1@gmail.com</p>
+        <p>Phone: (678)722-1138</p>
+      </div>
+    </footer>
+  <!-- JavaScript for Dropdown Menu -->
+  <script>
+    /* When the user clicks on the button,
+    toggle between hiding and showing the dropdown content */
+    function dropdownMenu() {
+      document.getElementById("dropdown-content").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        for (var i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+    <script>
+  function toggleNavMenu() {
+    const nav = document.querySelector("nav");
+    nav.classList.toggle("show-menu");
+  }
+</script>
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/contact-us.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/email.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>
