@@ -1,0 +1,108 @@
+@media only screen and (max-width: 1284px) {
+	.navbar-brand {
+	  margin-right: 2rem;
+	  font-size: 1.5rem;
+
+	}
+	.navbar-expand-lg .navbar-nav .nav-link {
+	  padding-right: 0;
+	  padding-left: 0;
+	}
+	header nav a {
+	  font-size: 0.8rem;
+	}
+}
+
+@media only screen and (max-width: 991.99px) { 
+	.navbar-nav {
+		padding-top: 15px;
+		border-top: 2px solid #fff;
+	}
+	header nav li {
+  		margin-left: 0px;
+	}
+	.navbar-brand {
+	  margin-bottom: 20px;
+	}
+	#contact-us-btn {
+  		margin-top: 25px;
+	}
+	.nav-item {
+	  margin: 0;
+	    margin-left: 0px;
+	}
+
+
+}
+@media only screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  header nav {
+    margin-top: 20px;
+  }
+
+  section {
+    padding: 20px;
+  }
+
+  #president-bio {
+    padding: 20px;
+  }
+
+  #president-bio img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+  }
+
+  .btn {
+    font-size: 0.8rem;
+    padding: 8px 16px;
+  }
+    header nav {
+    flex-direction: initial;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+  
+  header nav li {
+    margin: 10px 0;
+  }
+  
+  #president-photo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  
+  .btn {
+    font-size: 0.8rem;
+    padding: 8px 16px;
+  }
+  #president-bio p {
+    line-height: 1.6;
+    word-spacing: -2px;
+  }
+}
+
+@media only screen and (max-width: 406.99px) {
+	.collapse.show {
+	  margin-top: 25px;
+	}
+	header nav li {
+  		margin: 0 0;
+	}
+	#navbarNav {
+  		margin-top: 25px;
+	}
+	#contact-us-btn {
+  		margin-top: 25px;
+	}
+}
